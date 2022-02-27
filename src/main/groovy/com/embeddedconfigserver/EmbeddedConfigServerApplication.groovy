@@ -32,10 +32,3 @@ class Demo {
 		return env.getProperty("message")
 	}
 }
-
-/**
- * Get request (original value) -> http://localhost:8080/message/
- * Change message value here https://github.com/T-travis/config-repo/blob/main/config.properties
- * Post request -> http://localhost:8080/actuator/refresh
- * Get request (updated value) -> http://localhost:8080/message/
- */
